@@ -1,0 +1,19 @@
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\bin\x86\Debug\Time_Shime.Background.winmd
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\bin\x86\Debug\Time_Shime.Background.pdb
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\bin\x86\Debug\Time_Shime.Background.pri
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\Time Shime.Background.csprojResolveAssemblyReference.cache
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\Time_Shime.Background.winmd
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\Time_Shime.Background.pdb
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\Time_Shime.Background.winmdobj
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\Time_Shime.Background.compile.pdb
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\priconfig.xml
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\priconfig.xml.intermediate
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\layout.resfiles
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\layout.resfiles.intermediate
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\resources.resfiles
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\resources.resfiles.intermediate
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\pri.resfiles
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\pri.resfiles.intermediate
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\qualifiers.txt
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\qualifiers.txt.intermediate
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

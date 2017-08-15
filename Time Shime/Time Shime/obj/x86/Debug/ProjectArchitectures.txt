@@ -1,0 +1,2 @@
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\Time Shime.Background.csproj;x86
+H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Time Shime.csproj;x86
