@@ -35,8 +35,8 @@ namespace Time_Shime.Background {
 
 			// xml for Tile layout : https://msdn.microsoft.com/en-us/library/windows/apps/hh761491.aspx
 			const string xml = @"<tile><visual>
-                                        <binding template=""TileSquareText04""><text id=""1"">{0}</text></binding>
-                                        <binding template=""TileWideText09""><text id=""1"">{0}</text><text id=""2"">{1}</text></binding>
+                                        <binding template=""TileSquareText04""><text hint-style=""subtitle"" hint-wrap=""true"" id=""1"">{0}</text></binding>
+                                        <binding template=""TileWideText09""><text hint-style=""title"" hint-wrap=""true"" id=""1"">{0}</text><text id=""2"">{1}</text></binding>
                                    </visual></tile>";
 
 			string textTime = getTextTime(now);
@@ -67,8 +67,8 @@ namespace Time_Shime.Background {
          * Method to get the Text of a given time
          */
 		private static string getTextTime(DateTime dateTime) {
-			string hour = getText(dateTime.Hour);
-			string minute = (dateTime.Minute == 0) ? "zero zero" : getText(dateTime.Minute);
+			string hour = getText(dateTime.Hour % 12);
+			string minute = (dateTime.Minute == 0) ? "Zero Zero" : getText(dateTime.Minute);
 			return hour + ", " + minute;
 		}
 
@@ -77,66 +77,66 @@ namespace Time_Shime.Background {
          */
 		private static string getText(int n) {
 			switch (n) {
-				case 0: return "twelve";
-				case 1: return "one";
-				case 2: return "two";
-				case 3: return "three";
-				case 4: return "four";
-				case 5: return "five";
-				case 6: return "six";
-				case 7: return "seven";
-				case 8: return "eight";
-				case 9: return "nine";
-				case 10: return "ten";
-				case 11: return "eleven";
-				case 12: return "twelve";
-				case 13: return "thirteen";
-				case 14: return "fourteen";
-				case 15: return "fifteen";
-				case 16: return "sixteen";
-				case 17: return "seventeen";
-				case 18: return "eighteen";
-				case 19: return "ninteen";
-				case 20: return "twenty";
-				case 21: return "twenty one";
-				case 22: return "twenty two";
-				case 23: return "twenty three";
-				case 24: return "twenty four";
-				case 25: return "twenty five";
-				case 26: return "twenty six";
-				case 27: return "twenty seven";
-				case 28: return "twenty eight";
-				case 29: return "twenty nine";
-				case 30: return "thirty";
-				case 31: return "thirty one";
-				case 32: return "thirty two";
-				case 33: return "thirty three";
-				case 34: return "thirty four";
-				case 35: return "thirty five";
-				case 36: return "thirty six";
-				case 37: return "thirty seven";
-				case 38: return "thirty eight";
-				case 39: return "thirty nine";
-				case 40: return "forty";
-				case 41: return "forty one";
-				case 42: return "forty two";
-				case 43: return "forty three";
-				case 44: return "forty four";
-				case 45: return "forty five";
-				case 46: return "forty six";
-				case 47: return "forty seven";
-				case 48: return "forty eight";
-				case 49: return "forty nine";
-				case 50: return "fifty";
-				case 51: return "fifty one";
-				case 52: return "fifty two";
-				case 53: return "fifty three";
-				case 54: return "fifty four";
-				case 55: return "fifty five";
-				case 56: return "fifty six";
-				case 57: return "fifty seven";
-				case 58: return "fifty eight";
-				case 59: return "fifty nine";
+				case 0: return "Twelve";
+				case 1: return "One";
+				case 2: return "Two";
+				case 3: return "Three";
+				case 4: return "Four";
+				case 5: return "Five";
+				case 6: return "Six";
+				case 7: return "Seven";
+				case 8: return "Eight";
+				case 9: return "Nine";
+				case 10: return "Ten";
+				case 11: return "Eleven";
+				case 12: return "Twelve";
+				case 13: return "Thirteen";
+				case 14: return "Fourteen";
+				case 15: return "Fifteen";
+				case 16: return "Sixteen";
+				case 17: return "Seventeen";
+				case 18: return "Eighteen";
+				case 19: return "Ninteen";
+				case 20: return "Twenty";
+				case 21: return "Twenty One";
+				case 22: return "Twenty Two";
+				case 23: return "Twenty Three";
+				case 24: return "Twenty Four";
+				case 25: return "Twenty Five";
+				case 26: return "Twenty Six";
+				case 27: return "Twenty Seven";
+				case 28: return "Twenty Eight";
+				case 29: return "Twenty Nine";
+				case 30: return "Thirty";
+				case 31: return "Thirty One";
+				case 32: return "Thirty Two";
+				case 33: return "Thirty Three";
+				case 34: return "Thirty Four";
+				case 35: return "Thirty Five";
+				case 36: return "Thirty Six";
+				case 37: return "Thirty Seven";
+				case 38: return "Thirty Eight";
+				case 39: return "Thirty Nine";
+				case 40: return "Forty";
+				case 41: return "Forty One";
+				case 42: return "Forty Two";
+				case 43: return "Forty Three";
+				case 44: return "Forty Four";
+				case 45: return "Forty Five";
+				case 46: return "Forty Six";
+				case 47: return "Forty Seven";
+				case 48: return "Forty Eight";
+				case 49: return "Forty Nine";
+				case 50: return "Fifty";
+				case 51: return "Fifty One";
+				case 52: return "Fifty Two";
+				case 53: return "Fifty Three";
+				case 54: return "Fifty Four";
+				case 55: return "Fifty Five";
+				case 56: return "Fifty Six";
+				case 57: return "Fifty Seven";
+				case 58: return "Fifty Eight";
+				case 59: return "Fifty Nine";
 				default: return string.Empty;
 			}
 		}

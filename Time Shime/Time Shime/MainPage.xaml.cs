@@ -1,20 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Time_Shime.Background;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.DataTransfer;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -54,7 +43,7 @@ namespace Time_Shime {
 		}
 
 		private void MainPage_DataRequested(DataTransferManager sender, DataRequestedEventArgs args) {
-			args.Request.Data.SetText("Hi, try the new Time Shime app from the store at https://www.microsoft.com/store/apps/");
+			args.Request.Data.SetText("Hi, try the new Time Shime app from the store at https://www.microsoft.com/store/apps/9njz27vw06tq");
 			args.Request.Data.Properties.Title = Package.Current.DisplayName;
 		}
 
