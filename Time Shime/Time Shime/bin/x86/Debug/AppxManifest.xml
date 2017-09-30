@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="fed76b93-d6f2-46d9-b606-97abf66c0875" Publisher="CN=satye" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="64321SatyendraSingh.TimeShime" Publisher="CN=E5113597-2995-4212-BFE1-9F55015434D5" Version="1.1.3.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="fed76b93-d6f2-46d9-b606-97abf66c0875" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Time Shime</DisplayName>
-    <PublisherDisplayName>satye</PublisherDisplayName>
+    <PublisherDisplayName>Satyendra Singh</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

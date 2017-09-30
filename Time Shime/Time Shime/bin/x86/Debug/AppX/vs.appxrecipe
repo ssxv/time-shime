@@ -9,32 +9,32 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>fed76b93-d6f2-46d9-b606-97abf66c0875</PackageIdentityName>
-    <PackageIdentityPublisher>CN=satye</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=E5113597-2995-4212-BFE1-9F55015434D5</PackageIdentityPublisher>
     <IntermediateOutputPath>H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>BA55B1127B7F541A9E55EF0238D038F88D15B4D45B55DFD12391EB67C9133C5C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>fed76b93-d6f2-46d9-b606-97abf66c0875_1.0.0.0_x86__2ryg0ws7s3r40</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>fed76b93-d6f2-46d9-b606-97abf66c0875_2ryg0ws7s3r40!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>fed76b93-d6f2-46d9-b606-97abf66c0875</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=satye</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>39DD393493226F8D263F21B048715233C9F02D82696B201FB4C59F879685773F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>64321SatyendraSingh.TimeShime_1.1.3.0_x86__jxkmzt2as1g10</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>64321SatyendraSingh.TimeShime_jxkmzt2as1g10!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>64321SatyendraSingh.TimeShime</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=E5113597-2995-4212-BFE1-9F55015434D5</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.3.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T16:35:14.131</Modified>
+      <Modified>2017-09-30T09:55:16.907</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\bin\x86\Debug\Time Shime.exe">
       <PackagePath>entrypoint\Time Shime.exe</PackagePath>
-      <Modified>2017-08-15T16:35:10.479</Modified>
+      <Modified>2017-09-30T09:55:04.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\satye\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -450,7 +450,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime.Background\bin\x86\Debug\Time_Shime.Background.winmd">
       <PackagePath>Time_Shime.Background.winmd</PackagePath>
-      <Modified>2017-08-15T16:35:08.464</Modified>
+      <Modified>2017-09-30T09:55:01.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -463,12 +463,12 @@
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T07:30:18.156</Modified>
+      <Modified>2017-09-28T18:32:49.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T07:02:25.945</Modified>
+      <Modified>2017-09-28T18:36:37.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
@@ -483,12 +483,12 @@
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T07:44:23.856</Modified>
+      <Modified>2017-08-27T16:23:43.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T07:01:11.813</Modified>
+      <Modified>2017-09-28T18:34:46.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\bin\x86\Debug\Time Shime.xr.xml">
       <PackagePath>Time Shime.xr.xml</PackagePath>
@@ -496,16 +496,16 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2016-12-03T06:04:04.140</Modified>
+      <Modified>2017-08-26T01:27:04.394</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T15:19:44.631</Modified>
+      <Modified>2017-09-30T09:55:07.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="H:\Workspace\workspace_visualstudio\time-shime\Time Shime\Time Shime\bin\x86\Debug\Core\Time Shime.exe">
       <PackagePath>Time Shime.exe</PackagePath>
-      <Modified>2017-08-15T16:35:14.122</Modified>
+      <Modified>2017-09-30T09:55:16.885</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
