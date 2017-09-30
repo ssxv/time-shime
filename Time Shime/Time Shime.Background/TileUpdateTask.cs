@@ -35,8 +35,8 @@ namespace Time_Shime.Background {
 
 			// xml for Tile layout : https://msdn.microsoft.com/en-us/library/windows/apps/hh761491.aspx
 			const string xml = @"<tile><visual>
-                                        <binding template=""TileSquareText04""><text hint-style=""subtitle"" hint-wrap=""true"" id=""1"">{0}</text></binding>
-                                        <binding template=""TileWideText09""><text hint-style=""title"" hint-wrap=""true"" id=""1"">{0}</text><text id=""2"">{1}</text></binding>
+                                        <binding template=""TileMedium""><text hint-style=""subtitle"" hint-wrap=""true"" id=""1"">{0}</text></binding>
+                                        <binding template=""TileWide""><text hint-style=""title"" hint-wrap=""true"" id=""1"">{0}</text><text id=""2"">{1}</text></binding>
                                    </visual></tile>";
 
 			string textTime = getTextTime(now);
